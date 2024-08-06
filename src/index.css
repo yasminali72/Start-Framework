@@ -23,7 +23,7 @@ ul .active {
 }
 .title::after {
   position: absolute;
-  right: 25%;
+  right: 22%;
   bottom: 0;
   content: "";
   width: 80px;
@@ -33,7 +33,7 @@ ul .active {
 
 .title::before {
   position: absolute;
-  left: 25%;
+  left: 22%;
   bottom: 0;
   content: "";
   width: 80px;
@@ -71,4 +71,13 @@ ul .active {
   }
 }
 
-
+@media (min-width:768px){
+  .portfolio {
+    .title::after {
+      right: 28%;
+    }
+    .title::before {
+      left: 28%;
+    }
+  }
+}

@@ -13,8 +13,8 @@ export default function Portfolio() {
   return (
     <>
       <div className="portfolio mt-10 text-center">
-        <div className=" container flex flex-col justify-center items-center pt-20 pb-4   m-auto">
-          <div className="title flex flex-col justify-center items-center mt-3 mb-8 text-[#2C3E50] ">
+        <div className=" container flex flex-col justify-center items-center pt-20 pb-4   m-auto ">
+          <div className="title flex flex-col justify-center items-center mt-3 mb-8 text-[#2C3E50]  bg-red-300 ">
             <h1 className=" font-bold text-[30px] md:text-[40px] uppercase mb-4">
               portfolio component
             </h1>

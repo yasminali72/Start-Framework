@@ -3,8 +3,8 @@ import avataaars from "/src/assets/images/avataaars.svg"
 export default function Home() {
   return (
     <>
-      <div className="home mt-14  bg-main">
-        <div className="container  flex flex-col justify-center items-center pt-20 pb-5 md:p-24 m-auto">
+      <div className="home mt-14  bg-main ">
+        <div className="container  flex flex-col justify-center items-center    m-auto min-h-screen">
           <div className="">
             <img src={avataaars} alt="" className="w-full" />
           </div>
