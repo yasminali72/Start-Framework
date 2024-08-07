@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import port1 from '/src/assets/images/poert1.png'
 import port2 from '/src/assets/images/port2.png'
 import port3 from '/src/assets/images/port3.png'
+import { Helmet } from "react-helmet";
 
 
 export default function Portfolio() {
@@ -12,6 +13,7 @@ export default function Portfolio() {
 
   return (
     <>
+    <Helmet><title>Portfolio</title></Helmet>
       <div className="portfolio mt-10 text-center">
         <div className=" container flex flex-col justify-center items-center pt-20 pb-4   m-auto ">
           <div className="title flex flex-col justify-center items-center mt-3 mb-8 text-[#2C3E50]   ">

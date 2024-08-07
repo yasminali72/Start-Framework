@@ -1,9 +1,14 @@
 import React from "react";
 import avataaars from "/src/assets/images/avataaars.svg"
+import { Helmet } from "react-helmet";
 export default function Home() {
   return (
     <>
-      <div className="home mt-14  bg-main ">
+    <Helmet>
+      <title>Home</title>
+    </Helmet>
+
+    <div className="home mt-14  bg-main ">
         <div className="container  flex flex-col justify-center items-center    m-auto min-h-screen">
           <div className="">
             <img src={avataaars} alt="" className="w-full" />

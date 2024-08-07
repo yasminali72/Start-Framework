@@ -1,8 +1,10 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export default function About() {
   return (
     <>
+    <Helmet><title>About</title></Helmet>
       <div className="about bg-main pt-28 pb-12 ps-10 pe-10 md:ps-28 md:pe-28 mt-14 text-center xl:p-48 ">
         <div className="container flex flex-col justify-center items-center  m-auto">
           <div className="title flex flex-col justify-center items-center mb-5 ">

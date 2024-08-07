@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 export default function Contact() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Contact() {
 
   return (
     <>
+    <Helmet><title>Contact</title></Helmet>
       <div className="contact mt-28">
         <div className=" container flex justify-center flex-col items-center m-auto">
           <div className="title flex flex-col justify-center items-center mt-3 mb-10 text-[#2C3E50]">
